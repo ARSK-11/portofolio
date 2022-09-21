@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+<body>
+    <main class="user">
+        <nav>
+            <div class="container">
+                <button class="btn-bg-menu" type="submit">
+                    <hr>
+                    <hr>
+                    <hr>
+                </button>
+                <span>
+                    <a style="margin-top: 10px;color: whitesmoke; outline: none; display: inline-flex; text-decoration: none;" href="#">
+                        <span class="material-symbols-outlined">
+                            link
+                        </span>
+                        My Portofolio.
+                    </a>
+                </span>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <div class="container">
+            <div class="my-profil">
+                <img src="./img/172567019_1014497102537405_5572177283319025038_n.jpg" alt="">
+                <p class="my-name">
+                    <span><b>WELCOME BACK :</b> <br></span>
+                    <span class="name">ARIS KRISNANTO</span>
+                </p>
+            </div>
+            <div class="icons-skill">
+                <ul class="skill-content">
+                    <li>
+                        <div style="background: rgb(159, 146, 232); padding: 7px 8px 6px; border-radius: 10px;">
+                            <span class="material-symbols-outlined">
+                                edit
+                            </span>
+                        </div>
+                        <span class="persen-number" style="font-size: 20px;">70%</span>
+                        <span class="name-012"><b>WRITE</b>
+                            <br>
+                            Content Writeting and etc.
+                        </span>
+                    </li>
+                    <li>
+                        <div style="background: rgb(86, 207, 187); padding: 7px 8px 6px; border-radius: 10px; ">
+                            <span class="material-symbols-outlined">
+                                brush
+                            </span>
+                        </div>
+                        <span class="persen-number" style="font-size: 20px;">60%</span>
+                        <span class="name-012"><b>DESIGN</b><br>
+                            Desain Grafis and etc.
+                        </span>
+                    </li>
+                    <li>
+                        <div style="background: rgb(243, 208, 94); padding: 7px 8px 6px; border-radius: 10px; ">
+                            <span class="material-symbols-outlined">
+                                code
+                            </span>
+                        </div>
+                        <span class="persen-number" style="font-size: 20px;">80%</span>
+                        <span class="name-012"><b>CODING</b> <br>
+                            Write Programe Basic etc.
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <div class="container content-bg-01">
+        <p><h4>Table Language Chart :</h4></p>
+        <div class="tab-skill">
+            <h5>Skill:</h5>
+            <table style="width: 100%;">
+                <hr>
+                <tr>
+                    <td>Flag</td>
+                    <td>Name</td>
+                    <td>Progress</td>
+                </tr>
+
+                <tr>
+                    <td><img class="icon-all" src="./icons/icons8-adobe-photoshop-48.png"></td>
+                    <td><span>Photoshop</span></td>
+                    <td>
+                        <div class="progress-001">
+                            <div class="photo"></div><span>80%</span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><img class="icon-all" src="./icons/icons8-html-5-48.png"></td>
+                    <td><span>HTML 5</span></td>
+                    <td>
+                        <div class="progress-001">
+                            <div class="html5"></div><span>70%</span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><img class="icon-all" src="./icons/icons8-css3-48.png"></td>
+                    <td><span>CSS</span></td>
+                    <td>
+                        <div class="progress-001">
+                            <div class="css"></div><span>50%</span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img class="icon-all" src="./icons/icons8-javascript-48.png"></td>
+                    <td><span>Javascript</span></td>
+                    <td>
+                        <div class="progress-001">
+                            <div class="js"></div><span>44%</span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img class="icon-all" src="./icons/icons8-figma-48.png"></td>
+                    <td><span>Figma</span></td>
+                    <td>
+                        <div class="progress-001">
+                            <div class="fig"></div><span>60%</span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <canvas id="oilChart" class="canv-bg"></canvas>
+        <br>
+        <div style="">
+            <div style="float: left;">
+               <span style="font-weight: bold;">
+                Last Porject:
+               </span>
+            </div>
+            <div style="float: right;">
+                <span style="color: rgb(55, 163, 55);">view All</span>
+             </div>
+       </div>
+       <br>
+        <p id="doc"></p>
+        <br>
+        <br>
+        <br>
+    </div>
+
+<script src="./js/main.js"></script>
+</body>
+</html>

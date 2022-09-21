@@ -1,0 +1,160 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(58, 58, 58);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+    text-align: center;
+}
+main.user {
+    /* background: rgb(112, 144, 218); */
+    background: linear-gradient(160deg, rgb(112, 144, 218), rgb(141, 72, 232));
+    /* display: flex; */
+    padding: 20px 0 10px;
+    width: 100%;
+    box-shadow: inset 0px -23px 30px rgba(0, 0, 0, 0.1);
+}
+.container {
+    padding: 0 12% 0;
+    margin: 0;
+    /* width: 100%; */
+}
+main.user > .container {
+    display: flex;
+}
+.btn-bg-menu {
+    background: transparent;
+    border: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.btn-bg-menu > hr {
+    width: 24px;
+    height: 3px;
+    border: none;
+    background: whitesmoke;
+}
+.my-profil {
+    max-width: 300px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 15px;
+}
+.my-profil > img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
+.my-profil > .my-name {
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.my-profil > .my-name > .name {
+    font-size: 13px;
+}
+.icons-skill {
+    display: inline-block;
+    overflow: hidden;
+}
+.skill-content {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.skill-content > li {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    padding: 5px;
+}
+.skill-content > li > .persen-number {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.skill-content > li > .name-012 {
+    margin-top: 2px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.content-bg-01{
+    color: whitesmoke;
+    text-align: left;
+}
+.canv-bg {
+    width: 1400px;
+    height: 500px;
+}
+.tab-skill {
+    /* background: white; */
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px 4% 10px;
+}
+.progress-001 {
+    border: 1px solid gray;
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+/*			overflow: hidden;*/
+    display: flex;
+}
+.progress-001 > span {
+    margin-top: -5px;
+/*			position: absolute;*/
+}
+.progress-001 > div {
+    background: gray;
+    /*margin-top: -5px;*/
+/*			position: absolute;*/
+}
+.icon-all {
+    width: 30px;
+    height: 30px;
+}
+.photo {
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+}
+.html5 {
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
+}
+.css {
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+}
+.js {
+    width: 44%;
+    height: 100%;
+    border-radius: 10px;
+}
+.fig {
+    width: 60%;
+    height: 100%;
+    border-radius: 10px;
+}
+.card {
+    background: transparent;
+}
+.active-card {
+    background-color: rgb(79, 79, 79);
+}
+@media only screen and (max-width: 600px) {
+    main.user > .container {
+        display: inline-block;
+    }
+    .container {
+        padding: 0 5% 0;
+    }
+    .canv-bg {
+        width: 1400px;
+        height: 1000px;
+    }
+}
